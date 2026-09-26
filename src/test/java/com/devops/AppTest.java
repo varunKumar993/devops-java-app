@@ -9,7 +9,7 @@ class AppTest {
     @Test
     void testMessage() {
         assertEquals(
-            "DevOps CI/CD pipeline is working!",
+            "DevOps CI/CD pipeline is BROKEN!",
             App.getMessage()
         );
     }
